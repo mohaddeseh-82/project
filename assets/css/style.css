@@ -1,0 +1,12 @@
+
+.hove {
+    background-color: #F6F8FA;
+    color: black;
+    border: 2px solid #F6F8FA;
+    transition-duration: 1s;
+    border-radius: 10px;
+  }
+  
+  .hove:hover {
+    border-color: blue;
+  }
