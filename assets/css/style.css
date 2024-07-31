@@ -10,3 +10,11 @@
   .hove:hover {
     border-color: blue;
   }
+  .btn-hover{
+    color: black;
+
+  }
+  .btn-hover:hover{
+    color: white !important;
+
+  }
