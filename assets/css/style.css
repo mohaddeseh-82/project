@@ -39,6 +39,9 @@
       height: 25px;
       width: auto;
     }
+    .header1{
+      position: fixed;
+    }
   }
   @media only screen and (min-width: 960px) {
     .font1{
