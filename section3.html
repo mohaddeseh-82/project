@@ -46,67 +46,59 @@
                 <img src="./assets/image/Ellipse 86.png" alt="">
                 <h5 style="display: inline;">امیر بزی</h5>
                 <p style="display: inline;">مدرس</p>
-                <!-- accordion 1 -->
-                <div id="accordion">
+                <!-- accordion -->
 
-                    <div class="card my-2 mt-4 border border-0"
-                        style="background-color: #D8E2EC;">
-                        <div class="card-header border border-0">
-                            <a class="btn border border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseOne" >
-                                <div>
+                <div class="accordion" id="accordionExample" dir="rtl">
+                    <div class="accordion-item my-2 mt-4 border border-0" style="background-color: #D8E2EC;">
+                        <h2 class="accordion-header border border-0">
+                            <button class="accordion-button border border-0 collapsed" style="background-color: #D8E2EC;"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <div class="w-100">
                                     <img class="d-inline" src="./assets/image/User.png" alt="">
-                                    <h6 class="d-inline me-1">پروفایل من</h6>
-                                </div>
-                                <div>
-                                    <img class="d-inline" src="./assets/image/arrow-down.png" alt="">
+                                    <h6 class="d-inline me-2">پروفایل من</h6>
                                 </div>
                                 
                                 
-
-                            </a>
-                        </div>
-
-                        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
-                            <div class="card-body">
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
                             </div>
                         </div>
                     </div>
-
-                    <div class="card my-2 mt-4 border border-0"
-                        style="background-color: #D8E2EC;">
-                        <div class="card-header border border-0">
-                            <a class="collapsed btn border border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseTwo">
-                                <div>
+                    <div class="accordion-item my-2 mt-4 border border-0" style="background-color: #D8E2EC;">
+                        <h2 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed  border border-0"
+                                style="background-color: #D8E2EC;" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="w-100">
                                     <img class="d-inline" src="./assets/image/command.png" alt="">
-                                    <h6 class="d-inline me-1">مدیریت کارکنان </h6>
+                                    <h6 class="d-inline me-2">مدیریت کارکنان</h6>
                                 </div>
-                                <div>
-                                    <img class="d-inline" src="./assets/image/arrow-down.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                            <div class="card-body">
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
                             </div>
                         </div>
                     </div>
-
-                    <div class="card my-2 mt-4 border border-0"
-                        style="background-color: #D8E2EC;">
-                        <div class="card-header border border-0">
-                            <a class="collapsed btn border border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseThree">
-                                <div>
+                    <div class="accordion-item my-2 mt-4 border border-0" style="background-color: #D8E2EC;">
+                        <h2 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed border border-0"
+                                style="background-color: #D8E2EC;" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="w-100">
                                     <img class="d-inline" src="./assets/image/box-2.png" alt="">
-                                    <h6 class="d-inline me-1">سرویس اَد پِلاس </h6>
-                                </div>
-                                <div>
-                                    <img class="d-inline" src="./assets/image/arrow-down.png" alt="">
-                                </div>
+                                <h6 class="d-inline me-2">سرویس اَد پِلاس </h6>
                                
-                            </a>
-                        </div>
-                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-                            <div class="card-body container" style="width: 90%;">
+                                </div>
+                                
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body container" style="width: 90%;">
                                 <button class="btn-hover btn btn-outline-primary text-end border border-0 text-dark"
                                     style="width: 100%;">توضیحات سرویس</button>
                                 <button class="btn-hover btn btn-outline-primary text-end border border-0 text-dark"
@@ -116,52 +108,51 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- end accordion 1 -->
+
+                <!-- end accordion -->
 
                 <!-- accordion 2 -->
-                <div id="accordion">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item my-2 mt-4 border border-0">
+                        <h2 class="accordion-header border border-0">
+                            <button class="accordion-button border collapsed border-0"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                aria-expanded="true" aria-controls="collapsefour">
 
-                    <div class="card mt-4 border border-0" style="">
-                        <div class="card-header border border-0" style="background-color: transparent;">
-                            <a class=" btn border border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapsefour">
-                                <div>
+                                <div class="w-100">
                                     <img class="d-inline" src="./assets/image/command.png" alt="">
                                     <h6 class="d-inline me-1"> مدیریت کارکنان آموزشگاه </h6>
                                 </div>
-                                <div>
-                                    <img class="d-inline" src="./assets/image/arrow-down.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
-                            <div class="card-body">
-                            </div>  
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
                         </div>
                     </div>
-                    <div class="card mt-4 border border-0" style="">
-                        <div class="card-header border border-0" style="background-color: transparent;">
-                            <a class=" btn border border-0 d-flex justify-content-between" data-bs-toggle="collapse" href="#collapsefive">
-                                <div>
+                    <div class="accordion-item my-2 mt-4 border border-0" >
+                        <h2 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed  border border-0" 
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                <div class="w-100">
                                     <img class="d-inline" src="./assets/image/command.png" alt="">
                                     <h6 class="d-inline me-1"> مدیریت کارکنان پروژه </h6>
                                 </div>
-                                <div>
-                                    <img class="d-inline" src="./assets/image/arrow-down.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
-                            <div class="card-body">
-                                test
-                            </div>  
+                               
+                            </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
                 <!-- end accordion 2 -->
+
+
 
 
             </div>
