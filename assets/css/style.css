@@ -1,4 +1,26 @@
 
+body{
+  font-family: "Yekan Bakh";
+	font-style: normal;
+	font-weight: bold;
+}
+.bg-header{
+  background-color: #F6F8FA;
+}
+
+.bg-offcanvas{
+border-radius: 50%;
+margin-left: 80%;
+padding: 15px;
+background-color: blue;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y:center ;
+
+}
+.bg-accordion{
+  background-color: #D8E2EC;
+}
 .hove {
     background-color: #F6F8FA;
     color: black;
@@ -18,6 +40,44 @@
     color: white !important;
 
   }
+  .st-section{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .st-text{
+    text-align: justify;
+    direction: rtl;
+  }
+  .f-size{
+    font-size: small;
+  }
+  .b-section{
+    width: 88%;
+    border-radius: 15px;
+  }
+  .b-section2{
+    width: 94%;
+    direction: rtl;
+  }
+  .bg-select{
+    direction: rtl;
+    background: #F6F8FA;
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y:center ;
+  }
+  .bg-button-select{
+    background-color: #F6F8FA;
+  }
+  .f-select{
+    direction: rtl;
+    background: #F6F8FA;
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y:center ;
+  }
+  
   @media only screen and (max-width: 960px) {
     .col-lg-{
       width: 100%;
