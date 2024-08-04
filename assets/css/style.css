@@ -3,9 +3,16 @@ body{
   font-family: "Yekan Bakh";
 	font-style: normal;
 	font-weight: bold;
+  overflow-x: hidden;
+  background-color: #F6F8FA;
 }
 .bg-header{
   background-color: #F6F8FA;
+}
+.font-n{
+  font-family: "Yekan Bakh"!important;
+	font-style: normal;
+	font-weight: bold;
 }
 
 .bg-offcanvas{
@@ -17,6 +24,14 @@ background-repeat: no-repeat;
 background-position-x: center;
 background-position-y:center ;
 
+}
+.img-frame{
+  display: none;
+  position: fixed;
+}
+.btn-off{
+  border-radius: 50%;
+  background-color: #F6F8FA;
 }
 .bg-accordion{
   background-color: #D8E2EC;
@@ -84,22 +99,25 @@ background-position-y:center ;
       margin-top: 10px;
     }
     .font1{
-      font-size: 0%;
+      display: none;
     }
     .font2{
-      font-size: 0%;
+      display: none;
     }
     .img1{
-      height: 0px;
-    }
+      display: none;    }
     .img2{
-      height: 0px;
+      display: none;
     }
     .img3{
       height: 25px;
       width: auto;
     }
     .header1{
+      position: fixed;
+    }
+    .img-frame{
+      display: flex;
       position: fixed;
     }
   }
@@ -112,4 +130,5 @@ background-position-y:center ;
       height: 0px;
       width: 0px;
     }
+    
   }
