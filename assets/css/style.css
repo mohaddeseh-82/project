@@ -6,6 +6,7 @@ body{
   overflow-x: hidden;
   background-color: #F6F8FA;
 }
+/* start header */
 .bg-header{
   background-color: #F6F8FA;
 }
@@ -14,7 +15,9 @@ body{
 	font-style: normal;
 	font-weight: bold;
 }
+/* end header */
 
+/* start offcanvas */
 .bg-offcanvas{
 border-radius: 50%;
 margin-left: 80%;
@@ -33,9 +36,22 @@ background-position-y:center ;
   border-radius: 50%;
   background-color: #F6F8FA;
 }
+/* end  offcanvas */
+
+/* start accordion */
 .bg-accordion{
   background-color: #D8E2EC;
 }
+.btn-hover{
+  color: black;
+
+}
+.btn-hover:hover{
+  color: white !important;
+
+}
+/* end accordion */
+/* start section main */
 .hove {
     background-color: #F6F8FA;
     color: black;
@@ -47,14 +63,7 @@ background-position-y:center ;
   .hove:hover {
     border-color: blue;
   }
-  .btn-hover{
-    color: black;
-
-  }
-  .btn-hover:hover{
-    color: white !important;
-
-  }
+  
   .st-section{
     width: 92%;
     margin-left: auto;
@@ -92,7 +101,9 @@ background-position-y:center ;
     background-position-x: 2%;
     background-position-y:center ;
   }
+  /* end section main */
   
+  /* start respansive */
   @media only screen and (max-width: 960px) {
     .col-lg-{
       width: 100%;
@@ -132,3 +143,4 @@ background-position-y:center ;
     }
     
   }
+  /* end respansive */
